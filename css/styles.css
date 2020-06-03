@@ -52,7 +52,7 @@ html {
 }
 
 body, p {
-	color: #626262; 
+	color: #626262;
 	font: 400 0.875rem/1.375rem "Raleway", sans-serif;
 }
 
@@ -251,7 +251,7 @@ a.white {
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 	.label-control {
 		top: 0.9375rem;
 	}
@@ -290,7 +290,7 @@ a.white {
 }
 
 /* IE10+ hack to solve lower label text position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 	.form-control-input {
 		padding-top: 1.25rem;
 		padding-bottom: 0.75rem;
@@ -359,7 +359,7 @@ input[type='checkbox'] {
 }
 
 /* IE10+ hack to raise checkbox field position compared to the rest of the browsers */
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
 	input[type='checkbox'] {
 		vertical-align: -9%;
 	}
@@ -491,17 +491,17 @@ input[type='checkbox'] {
 /* animate in */
 .my-mfp-slide-bottom.mfp-ready .zoom-anim-dialog {
 	opacity: 1;
-	-webkit-transform: translateY(0) perspective(37.5rem) rotateX(0); 
-	-ms-transform: translateY(0) perspective(37.5rem) rotateX(0); 
-	transform: translateY(0) perspective(37.5rem) rotateX(0); 
+	-webkit-transform: translateY(0) perspective(37.5rem) rotateX(0);
+	-ms-transform: translateY(0) perspective(37.5rem) rotateX(0);
+	transform: translateY(0) perspective(37.5rem) rotateX(0);
 }
 
 /* animate out */
 .my-mfp-slide-bottom.mfp-removing .zoom-anim-dialog {
 	opacity: 0;
-	-webkit-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
-	-ms-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
-	transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg); 
+	-webkit-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
+	-ms-transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
+	transform: translateY(-0.625rem) perspective(37.5rem) rotateX(10deg);
 }
 
 /* dark overlay, start state */
@@ -588,7 +588,7 @@ input[type='checkbox'] {
 	left: 50%; /* centers the loading animation horizontally one the screen */
 	width: 3.75rem;
 	height: 1.25rem;
-	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */ 
+	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */
 	text-align: center;
 }
 
@@ -618,11 +618,11 @@ input[type='checkbox'] {
 }
 
 @keyframes sk-bouncedelay {
-	0%, 80%, 100% { 
+	0%, 80%, 100% {
 		-webkit-transform: scale(0);
 		-ms-transform: scale(0);
 		transform: scale(0);
-	} 40% { 
+	} 40% {
 		-webkit-transform: scale(1.0);
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
@@ -1194,7 +1194,7 @@ input[type='checkbox'] {
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-  
+
 .basic-3 .video-play-button:before {
 	content: "";
 	position: absolute;
@@ -1211,7 +1211,7 @@ input[type='checkbox'] {
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-  
+
 .basic-3 .video-play-button:after {
 	content: "";
 	position: absolute;
@@ -1228,7 +1228,7 @@ input[type='checkbox'] {
 	-ms-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
 }
-  
+
 .basic-3 .video-play-button span {
 	position: relative;
 	display: block;
@@ -1241,7 +1241,7 @@ input[type='checkbox'] {
 	border-top: 1rem solid transparent;
 	border-bottom: 1rem solid transparent;
 }
-  
+
 @keyframes pulse-border {
 	0% {
 		transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
@@ -1266,7 +1266,7 @@ input[type='checkbox'] {
 	padding-top: 7.5rem;
 	padding-bottom: 7rem;
 	background: url('../images/testimonials-background.jpg') center center no-repeat;
-	background-size: cover; 
+	background-size: cover;
 }
 
 .slider-2 .image-container {
@@ -1367,7 +1367,7 @@ input[type='checkbox'] {
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
-} 
+}
 /* end of hover animation */
 
 .basic-4 .team-member .p-large {
@@ -1412,7 +1412,7 @@ input[type='checkbox'] {
 	padding-top: 7rem;
 	padding-bottom: 6.25rem;
 	background: url('../images/contact-background.jpg') center center no-repeat;
-	background-size: cover; 
+	background-size: cover;
 }
 
 .form-2 h2 {
@@ -1453,7 +1453,7 @@ input[type='checkbox'] {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border: none; 
+	border: none;
 }
 
 
@@ -1542,7 +1542,7 @@ a.back-to-top {
 }
 
 a:hover.back-to-top {
-	background-color: #00a7bd; 
+	background-color: #00a7bd;
 }
 
 
@@ -1621,10 +1621,10 @@ a:hover.back-to-top {
 
 /*****************************/
 /*     20. Media Queries     */
-/*****************************/	
+/*****************************/
 /* Min-width width 768px */
 @media (min-width: 768px) {
-	
+
 	/* General Styles */
 	.p-heading {
 		width: 85%;
@@ -1684,7 +1684,7 @@ a:hover.back-to-top {
 		width: 1.375rem;
 		background-size: 1.375rem 2.125rem;
 	}
-	
+
 	.slider-2 .swiper-button-next {
 		right: 1rem;
 		width: 1.375rem;
@@ -1739,14 +1739,14 @@ a:hover.back-to-top {
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
-	
+
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 1.5rem 2.125rem 2rem;
 		box-shadow: none;
         background: transparent;
 	}
-	
+
 	.navbar-custom .navbar-nav {
 		margin-top: 0;
 		margin-bottom: 0;
@@ -1757,7 +1757,7 @@ a:hover.back-to-top {
 		color: #fff;
 		opacity: 0.8;
 	}
-	
+
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
 		color: #fff;
@@ -1774,7 +1774,7 @@ a:hover.back-to-top {
 		color: #393939;
 		opacity: 1;
 	}
-	
+
 	.navbar-custom.top-nav-collapse .nav-item .nav-link:hover,
 	.navbar-custom.top-nav-collapse .nav-item .nav-link.active {
 		color: #00bfd8;
@@ -1811,12 +1811,12 @@ a:hover.back-to-top {
 		margin-left: 0.25rem;
 		font-size: 0.75rem;
 	}
-	
+
 	.navbar-custom .fa-stack-2x {
 		color: #00bfd8;
 		transition: all 0.2s ease;
 	}
-	
+
 	.navbar-custom .fa-stack-1x {
 		color: #fff;
 		transition: all 0.2s ease;
@@ -1833,7 +1833,7 @@ a:hover.back-to-top {
 	.navbar-custom.top-nav-collapse .fa-stack-2x {
 		color: #00bfd8;
 	}
-	
+
 	.navbar-custom.top-nav-collapse .fa-stack-1x {
 		color: #fff;
 	}
@@ -1841,7 +1841,7 @@ a:hover.back-to-top {
 	.navbar-custom.top-nav-collapse .fa-stack:hover .fa-stack-2x {
 		color: #00a7bd;
 	}
-	
+
 	.navbar-custom.top-nav-collapse .fa-stack:hover .fa-stack-1x {
 		color: #fff;
 	}
@@ -1858,7 +1858,7 @@ a:hover.back-to-top {
 	/* Header */
 	.header {
 		background: url('../images/header-background.jpg') center center no-repeat;
-		background-size: cover; 
+		background-size: cover;
 	}
 
 	.header .header-content {
@@ -1918,7 +1918,7 @@ a:hover.back-to-top {
 		margin-bottom: 0;
 		margin-left: 0.5rem;
 	}
-	
+
 	.lightbox-basic h3 {
 		margin-top: 0.5rem;
 	}
@@ -1959,7 +1959,7 @@ a:hover.back-to-top {
 		width: 65%;
 	}
 	/* end of video */
-	
+
 
 	/* Testimonials */
 	.slider-2 {
@@ -2013,7 +2013,7 @@ a:hover.back-to-top {
 
 /* Min-width width 1200px */
 @media (min-width: 1200px) {
-	
+
 	/* Navigation */
 	.navbar-custom {
 		padding: 2.125rem 5rem 2.125rem 5rem;
@@ -2024,7 +2024,7 @@ a:hover.back-to-top {
 	}
 	/* end of navigation */
 
-	
+
 	/* General Styles */
 	.p-heading {
 		width: 55%;
@@ -2048,7 +2048,7 @@ a:hover.back-to-top {
 		margin-right: 1rem;
 	}
 	/* end of header */
-	
+
 
 	/* Customers */
 	.slider-1 .slider-container {
@@ -2192,7 +2192,7 @@ a:hover.back-to-top {
 .VPDF-dropzone {
     cursor: pointer;
     border: 3px dashed #2d2c30;
-    
+
 }
 
 .cards-1 .VPDF-border {
@@ -2201,15 +2201,14 @@ a:hover.back-to-top {
 }
 
 .VPDF-btn {
-	display: inline;
+	display: inline-block;
 	border-radius: 2rem;
 	margin-right: 20px;
+	line-height: 24px;
 }
 
 
 .git-img-btn {
-	display: inline;
-	border-radius: 2rem;
 	margin-right: 20px;
 	background-color: #3b4a4c;
 	border-color: #3b4a4c;
@@ -2230,7 +2229,7 @@ a:hover.back-to-top {
 .pdf-img-size {
 	font-size:60px;
 	/* margin-left: 18px; */
-	padding-top: 4px;	
+	padding-top: 4px;
 }
 
 .pdf-img-description {
